@@ -10,8 +10,8 @@ pipeline {
                 sh 'git clone https://github.com/NikitaJoshi7/reveal.git' 
                 sh 'pwd'
                 sh 'cd /var/lib/jenkins/workspace/q8/reveal/'
-                sh 'chmod 777 index.html'
-                
+              
+                sh 'cp -rf /var/lib/jenkins/workspace/q8/reveal/index.html /var/www/html/'
             }
         }
        
