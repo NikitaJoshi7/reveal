@@ -11,7 +11,7 @@ pipeline {
                 sh 'pwd'
                 sh 'cd /var/lib/jenkins/workspace/q8'
                 sh 'chmod 777 index.html'
-        
+                cleanWs()
             }
         }
        
