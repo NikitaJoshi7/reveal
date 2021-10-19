@@ -9,7 +9,7 @@ pipeline {
                 sh 'rm -rf Reveal'
                 sh 'git clone https://github.com/NikitaJoshi7/reveal.git' 
                 sh 'pwd'
-                sh 'cd /var/lib/jenkins/workspace/q8'
+                sh 'cd /var/lib/jenkins/workspace/q8/reveal'
                 sh 'chmod 777 index.html'
                 
             }
